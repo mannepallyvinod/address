@@ -1,4 +1,8 @@
-FROM anapsix/alpine-java 
-LABEL maintainer="vinod199733@gmail.com"
-COPY /target/spring-petclinic-1.5.1.jar /home/spring-petclinic-1.5.1.jar 
-CMD ["java","-jar","/home/spring-petclinic-1.5.1.jar"]
+FROM tomcat:9.0-alpine
+
+COPY /target/addressbook.war /usr/local/tomcat/webapps/
+
+
+EXPOSE 8080
+
+CMD ["catalina.sh","run"]

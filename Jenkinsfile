@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: "https://github.com/mannepallyvinod/Spring.git"
+                git url: "https://github.com/mannepallyvinod/address.git"
             }
         }
         stage ('Build') {
@@ -17,7 +17,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    docker.build('spring:latest', '.')
+                    docker.build('address:latest', '.')
                 }
             }
         }
