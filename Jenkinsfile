@@ -21,5 +21,10 @@ pipeline {
                 }
             }
         }
+        stage('Run') {
+            steps {
+               sh 'docker run -p 8080:80 address:latest'
+            }
+        }
     }
 }
