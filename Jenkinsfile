@@ -26,7 +26,7 @@ pipeline {
             steps {
                 script {
                     // Run Docker container
-                    dockerContainer = dockerImage.run("-p 8080:80 -d")
+                    dockerContainer = dockerImage.run("-p 8080:8080 -d")
                     dockerContainerId = dockerContainer.id
                 }
             }
