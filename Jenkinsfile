@@ -14,16 +14,21 @@ pipeline {
                 bat "mvn clean install package"
             }
         }
-        stage('Deploy') {
+        stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build('address:latest', '.')
+                    // Build Docker image
+                    dockerImage = docker.build("address")
                 }
             }
         }
-        stage('Run') {
+        stage('Run Docker Container') {
             steps {
-               sh 'docker run -p 8080:80 address:latest'
+                script {
+                    // Run Docker container
+                    dockerContainer = dockerImage.run("-p 8080:80 -d")
+                    dockerContainerId = dockerContainer.id
+                }
             }
         }
     }
