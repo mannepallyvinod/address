@@ -8,9 +8,9 @@
 	<p style="color: #0000FF;">Welcome to my address book!</p>
 	<h2 style="color: #008000;">Contacts:</h2>
 	<ul>
-		<li style="color: #FF0000;">John Doe</li>
-		<li style="color: #FFA500;">Jane Smith</li>
-		<li style="color: #FF00FF;">Bob Johnson</li>
+		<li style="color: #FF0000;">Vinod Kumar</li>
+		<li style="color: #FFA500;">Sandeep</li>
+		<li style="color: #FF00FF;">Vijaya Laknshmi</li>
 	</ul>
 </body>
 </html>
