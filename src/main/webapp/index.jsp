@@ -11,7 +11,6 @@
 		<li style="color: #FF0000;">Vinod Kumar</li>
 		<li style="color: #FFA500;">Sandeep</li>
 		<li style="color: #FF00FF;">Vijaya Lakshmi</li>
-		<li style="color: #FF00FF;">Ramesh</li>
 	</ul>
 </body>
 </html>
