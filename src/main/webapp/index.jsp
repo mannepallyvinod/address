@@ -10,7 +10,7 @@
 	<ul>
 		<li style="color: #FF0000;">Vinod Kumar</li>
 		<li style="color: #FFA500;">Sandeep</li>
-		<li style="color: #FF00FF;">Vijaya Laknshmi</li>
+		<li style="color: #FF00FF;">Vijaya Lakshmi</li>
 	</ul>
 </body>
 </html>
