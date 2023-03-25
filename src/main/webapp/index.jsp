@@ -12,7 +12,6 @@
 		<li style="color: #FFA500;">Sandeep</li>
 		<li style="color: #FF00FF;">Vijaya Lakshmi</li>
 		<li style="color: #FF00FF;">Ramesh</li>
-		<li style="color: #FF00FF;">Bharat</li>
 	</ul>
 </body>
 </html>
